@@ -12,10 +12,10 @@ export default function Hero() {
           {/* left Div */}
           <div className="flex- py-1 ">
             {/* <Badge className="py-3 rounded-md bg-blue-100  text-blue-700 hover:bg-blue-100">Sale 70%</Badge> */}
-            <h1 className="scroll-m-10 text-4xl font-extrabold lg:text-5xl mt-6 text-center">
+            <h1 className="scroll-m-10 text-4xl font-extrabold lg:text-5xl mt-6 text-center hover:text-indigo-900 ">
                 MacbookPro
             </h1>
-            <p className="leading-7 [&:not(:first-child)]:mt-6 text-center">
+            <p className="leading-7 [&:not(:first-child)]:mt-6 text-center hover:text-indigo-900">
                 A work of Smart.
             </p>
             <div className="flex justify-center-safe flex- py-10 gap-4">
@@ -30,8 +30,8 @@ export default function Hero() {
           </div>
 
             <h1 className="text-xl leading-7 [&:not(:first-child)]:mt-6 text-center
-      bg-gradient-to-r from-yellow-100 to-pink-900
-      bg-clip-text text-transparent">Built for Apple Intelligence.</h1>
+      bg-gradient-to-r from-indigo-500 to-pink-900 hover:text-indigo-300
+      bg-clip-text text-transparent">Built for Apple Intelligence. MacBook Air is the world’s most popular laptop for a reason. Actually, for a lot of reasons.</h1>
 
           </div>
           
